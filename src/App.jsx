@@ -53,7 +53,7 @@ function App() {
         onChange={(e) => setInput(e.target.value)}
       />
 
-      <button onClick={addTodo}>Add</button>
+      <button onClick={addTodo}>Add Task</button>
 
       <ToDoList
         todos={todos}
