@@ -48,7 +48,7 @@ function App() {
 
       <input
         type="text"
-        placeholder="Enter task"
+        placeholder="Enter your task"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
