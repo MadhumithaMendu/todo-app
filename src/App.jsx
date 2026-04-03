@@ -64,5 +64,5 @@ function App() {
     </div>
   );
 }
-
+<p>Total Tasks: {todos.length}</p>
 export default App;
